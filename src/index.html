@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>cipher proyect</title>
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--pantalla de inicio-->
+    <div id="step1">
+        <h1 id="element1">Cipher</h1>
+        <hr>
+        <p id="element2"><em>cipher</em> es una aplicacion web que tiene como objetivo la privacidad.  Para lograr esto, <em>cipher</em> utiliza el denominado "cifrado cesar", el cual por medio del sustitucion, codifica el texto deseado.</p>
+        <p id="element3">*recuerda que el <em>offset</em> debe ser acordado previamente por ambas partes.*</p>
+        <button type="button" id="decode1" class="next"><strong>Info.</strong></button>
+        <button type="button" id="encode1" class="next"><strong>Cipher.</strong></button>
+        
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+   <!--pantalla encode-->
+    <div id="step2">
+        <button type="button" id="return1"><img class="imgreturn" src="home.png" alt="home"></button>
+        <hr>
+        <label id="offsetLabel" for=""></label><strong>Escoge una clave:</strong></label>
+        <input type="number" id="offsetCipher"  min="1" max="100">
+     <form >
+       <textarea  name="decode" id="inputCipher" cols="60" rows="10" placeholder="ingrese el texto"></textarea>
+       <textarea name="encode" id="outputCipher" cols="60" rows="10"  readonly></textarea>
+    </form>
+       <button type="submit"  id="cipherEncode">Cifrar</button>
+       <button type="submit"  id="cipherDecode">Descifrar</button>
+    </div>
+    <!--pantalla decode-->
+    <div id="step3">
+        <button type="button" id="return2"><img class="imgreturn" src="home.png" alt="home"></button>
+       <hr>
+        <h1>Más información</h1>
+        <p>Para tener claro lo que hace el codigo cesar, hay que saber que cada letra es sustituida por otra que le siga una determinada cantidad de posiciones más adelante en el alfabeto. Siguiendo esta regla y utilizando nuestro alfabeto y un desplazamiento de tres posiciones, la letra A es sustituida por la D, la B por la E, la C por la F, y así sucesivamente hasta la última letra.</p>
+        <h2>Proposito de <em>Cipher</em></h2>
+        <p>Como empresa, somos consientes del valor de la informacio y de como la manipulación de esta puede ser tanto beneficiosa como destructiva, dependiendo de en que lado de la moneda estemos.</p>
+        <p>Con lo anterior en mente, <em>Cipher</em> está hecho para proteger esa preciada información, que, si se filtrase, dejaría nuestro mundo de cabeza. Por esto,querido usuario, sientete libre de usar <em>Cipher</em>.</p>
+        <p>***si piensas mandar informacion cifrada a terceros, entonces recuerda acordar una cantidad de desplazamiento previamente***</p>
+    </div>
+    <!--script-->
+       <script src="index.js"></script>
+       <script src="cipher.js"></script>
+</body>
 </html>
