@@ -19,6 +19,7 @@ describe('cipher', () => {
   it('deberia retornar " " cada vez que se ingrese un espacio',()=>{
     assert.equal(cipher.encode(" ")," ");
   });
+ 
   });
   describe('cipher.decode', () => {
 
