@@ -20,7 +20,8 @@ A pesar de que mi producto fue construido en una manera simple y en un breve esp
 Debido al uso del producto, el usuario es capaz de guardar y compartir información de una manera segura
 
 ####Prototipo de baja fidelidad:
-![alt text](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/ControlDeFlujo.jpg)
+
+![Control-de-Flujo](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/ControlDeFlujo.jpg)
 
 #### Scripts / Archivos
 
