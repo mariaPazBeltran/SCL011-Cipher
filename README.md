@@ -11,13 +11,13 @@ Ejemplo: si usamos un _desplazamiento_ de 3 posiciones:
 Al momento de plantearme la creación de _Cipher_ se me vinieron a la mente un monton de situaciones en las que ocurrió una filtracion de informacion y como consecuencia se produjieron situaciones complicadas. Por esto, _Cipher_, tiene como usuario objetivo a aquellas personas que manipulen informacion preciada que no quieren que se filtre:
 - Grandes empresas.
 - Pequeños emprendimientos que buscan surgir.
-- lideres.
+- lideres
 - ONG's
 - etc
 
 ####Opinion respecto a la funcionalidad del producto:
 A pesar de que mi producto fue construido en una manera simple y en un breve espacio de tiempo, Creo que es capaz de resolver el principal problema que tienen los usuarios objetivos; La Filtración de Información.
-Debido al uso del producto, el usuario es capaz de guardar y compartir información de una manera segura.
+Debido al uso del producto, el usuario es capaz de guardar y compartir información de una manera segura
 
 ####Prototipo de baja fidelidad:
 ![alt text](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/ControlDeFlujo.jpg)
