@@ -13,13 +13,14 @@ Al momento de plantearme la creación de _Cipher_ se me vinieron a la mente un m
 - Pequeños emprendimientos que buscan surgir.
 - lideres.
 - ONG's
-- etc.
+- etc
+
 ####Opinion respecto a la funcionalidad del producto:
 A pesar de que mi producto fue construido en una manera simple y en un breve espacio de tiempo, Creo que es capaz de resolver el principal problema que tienen los usuarios objetivos; La Filtración de Información.
 Debido al uso del producto, el usuario es capaz de guardar y compartir información de una manera segura.
 
 ####Prototipo de baja fidelidad:
-![all text](https://ibb.co/v4FXXgp)
+![alt text](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/ControlDeFlujo.jpg)
 
 #### Scripts / Archivos
 
