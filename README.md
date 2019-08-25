@@ -7,7 +7,7 @@ El _cifrado césar_ es una de las técnicas más simples para cifrar un mensaje 
 Ejemplo: si usamos un _desplazamiento_ de 3 posiciones:
 - La letra A se cifra como D.
 
-##Aplicación:
+## Aplicación:
 - Para ver mi pagina, haz Click [*_Aquí_*](https://mariapazbeltran.github.io/SCL011-Cipher/src/index.html)
 - Para ver como me organicé durante el proyecto, haz Click [*_Aquí_*](https://trello.com/b/t72qvdzf/cipher)
 
