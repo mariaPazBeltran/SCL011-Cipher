@@ -11,35 +11,49 @@
     <div id="step1">
         <h1 id="element1">Cipher</h1>
         <hr>
-        <p id="element2"><em>cipher</em> es una aplicacion web que tiene como objetivo la privacidad.  Para lograr esto, <em>cipher</em> utiliza el denominado "cifrado cesar", el cual por medio del sustitucion, codifica el texto deseado.</p>
-        <p id="element3">*recuerda que el <em>offset</em> debe ser acordado previamente por ambas partes.*</p>
+        <p id="element2"><em>cipher</em> es una aplicación web que tiene como objetivo la privacidad.  Para lograr esto, <em>cipher</em> utiliza el denominado "cifrado César", el cual por medio de la sustitución, codifica el texto deseado.</p>
+        
         <button type="button" id="decode1" class="next"><strong>Info.</strong></button>
         <button type="button" id="encode1" class="next"><strong>Cipher.</strong></button>
         
     </div>
-   <!--pantalla encode-->
+   <!--pantalla cipher-->
     <div id="step2">
         <button type="button" id="return1"><img class="imgreturn" src="home.png" alt="home"></button>
         <hr>
+        <p id="element3">***si deseas compartir información cifrada a terceros, entonces recuerda acordar una cantidad de desplazamiento previamente***</p>
         <label id="offsetLabel"><strong>Escoge una clave:</strong></label>
         <input type="number" id="offsetCipher"  min="1" max="100">
      <form >
-       <textarea  name="decode" id="inputCipher" cols="60" rows="10" placeholder="ingrese el texto"></textarea>
+       <textarea  name="decode" id="inputCipher" cols="60" rows="10" placeholder="Ingresar Texto..."></textarea>
        <textarea name="encode" id="outputCipher" cols="60" rows="10"  readonly></textarea>
     </form>
        <button type="submit"  id="cipherEncode">Cifrar</button>
        <button type="submit"  id="cipherDecode">Descifrar</button>
+       <hr>
+       <button type="button" id="links">compartir</button>
     </div>
-    <!--pantalla decode-->
+    <!--pantalla info-->
     <div id="step3">
         <button type="button" id="return2"><img class="imgreturn" src="home.png" alt="home"></button>
        <hr>
         <h1>Más información</h1>
-        <p>Para tener claro lo que hace el codigo cesar, hay que saber que cada letra es sustituida por otra que le siga una determinada cantidad de posiciones más adelante en el alfabeto. Siguiendo esta regla y utilizando nuestro alfabeto y un desplazamiento de tres posiciones, la letra A es sustituida por la D, la B por la E, la C por la F, y así sucesivamente hasta la última letra.</p>
-        <h2>Proposito de <em>Cipher</em></h2>
-        <p>Como empresa, somos consientes del valor de la informacio y de como la manipulación de esta puede ser tanto beneficiosa como destructiva, dependiendo de en que lado de la moneda estemos.</p>
-        <p>Con lo anterior en mente, <em>Cipher</em> está hecho para proteger esa preciada información, que, si se filtrase, dejaría nuestro mundo de cabeza. Por esto,querido usuario, sientete libre de usar <em>Cipher</em>.</p>
-        <p>***si piensas mandar informacion cifrada a terceros, entonces recuerda acordar una cantidad de desplazamiento previamente***</p>
+        <p>Para tener claro lo que hace el codigo césar, hay que saber que cada letra es sustituida por otra que le siga una determinada cantidad de posiciones más adelante en el alfabeto. Siguiendo esta regla y utilizando nuestro alfabeto y un desplazamiento de tres posiciones, la letra A es sustituida por la D, la B por la E, la C por la F, y así sucesivamente hasta la última letra.</p>
+        <img id="infoImage" src="https://i.pinimg.com/736x/10/b3/d2/10b3d21a4714660514dd327361c13459.jpg" alt="Ejemplo 'codigo César'.">
+        <h2>Propósito de <em>Cipher</em></h2>
+        <p>Como empresa, somos conscientes del valor de la información y de como la manipulación de esta puede ser tanto beneficiosa como destructiva, dependiendo de muchos factores. Con lo anterior en mente, <em>Cipher</em> está hecho para proteger esa preciada información, que, si se filtrase, dejaría nuestro mundo de cabeza.</p>
+        <p>Si eres una persona que busca una forma segura de guardar y compartir información, entonces ve <em>Cipher</em> como el medio para lograrlo.</p>
+        
+    </div>
+    <!--Pantalla compartir-->
+    <div id="step4">
+        <button type="button" id="back"><img id="imageBack" src="return.png" alt="volver"></button>
+        <button type="button" id="return3"><img class="imgreturn" src="home.png" alt="home"></button>
+       <hr>
+        <h1>compartir</h1>
+        <a target="_blank" href="https://www.facebook.com/"><img class="linksCompartir" src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png" alt="facebook"></a>
+        <a target="_blank" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"><img class="linksCompartir" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/1200px-Gmail_Icon.svg.png" alt="gmail"></a>
+        <a target="_blank" href="https://web.whatsapp.com"><img class="linksCompartir" src="http://static.t13.cl/images/sizes/1200x675/1533152253-whatsapp.jpg" alt="whatsApp"></a>
     </div>
     <!--script-->
        <script src="index.js"></script>

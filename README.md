@@ -19,9 +19,23 @@ Al momento de plantearme la creación de _Cipher_ se me vinieron a la mente un m
 A pesar de que mi producto fue construido en una manera simple y en un breve espacio de tiempo, Creo que es capaz de resolver el principal problema que tienen los usuarios objetivos; La Filtración de Información.
 Debido al uso del producto, el usuario es capaz de guardar y compartir información de una manera segura
 
-## Prototipo de baja fidelidad:
+#### Prototipo de baja fidelidad:
 
 ![Control-de-Flujo](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/ControlDeFlujo.jpg)
+
+#### Prototipo de mediana fidelidad:
+
+![Sketch](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/sketch.jpg)
+
+## Historia de usuario:
+
+Mujer, 19 años:
+"Si no me hubieses explicado, no hubiese entendido de que va la cosa. Sería bueno que hubiese una explicacion de lo que hace tu pagina"
+
+hombre, 40 años:
+"Es muy latoso tener que estar cambiando de pantalla para comprobar si se cifró bien el mensaje, Seria mejor que las opciones de cifrar y decifrar esten juntas."
+
+
 
 #### Scripts / Archivos
 
