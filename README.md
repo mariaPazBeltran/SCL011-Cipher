@@ -6,6 +6,11 @@ El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) fue empleado po
 El _cifrado césar_ es una de las técnicas más simples para cifrar un mensaje (Codificar). Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 Ejemplo: si usamos un _desplazamiento_ de 3 posiciones:
 - La letra A se cifra como D.
+
+##Aplicación
+- Para ver mi pagina, haz Click [*_Aquí_*](https://mariapazbeltran.github.io/SCL011-Cipher/src/index.html)
+- Para ver como me organicé durante el proyecto, haz Click [*_Aquí_*](https://trello.com/b/t72qvdzf/cipher)
+Para ver mis Codigos, haz click [*_Aquí_*](https://github.com/mariaPazBeltran/SCL011-Cipher)
 ## Proceso de creación:
 #### Usuarios Objetivos:
 Al momento de plantearme la creación de _Cipher_ se me vinieron a la mente un monton de situaciones en las que ocurrió una filtracion de informacion y como consecuencia se produjieron situaciones complicadas. Por esto, _Cipher_, tiene como usuario objetivo a aquellas personas que manipulen informacion preciada que no quieren que se filtre:
@@ -27,23 +32,16 @@ Debido al uso del producto, el usuario es capaz de guardar y compartir informaci
 
 ![Sketch](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/sketch.jpg)
 
-## Historia de usuario:
+#### Historia de usuario:
 
 Mujer, 19 años:
-"Si no me hubieses explicado, no hubiese entendido de que va la cosa. Sería bueno que hubiese una explicacion de lo que hace tu pagina"
+"Si no me hubieras explicado, no habría entendido de que va la cosa. Mejor pon una explicación de lo que hace tu pagina"
 
 hombre, 40 años:
-"Es muy latoso tener que estar cambiando de pantalla para comprobar si se cifró bien el mensaje, Seria mejor que las opciones de cifrar y decifrar esten juntas."
+"Es incomodo tener que estar cambiando de pantalla para comprobar si se cifró bien el mensaje, deberías poner el 'cifrar' y 'descifrar' juntas."
 
+## Producto final:
+![Producto-Final](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/productoFinal.jpg)
 
-
-#### Scripts / Archivos
-
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
+#### Reflección:
+Si hubiese tenido más tiempo me gustaría agregar botones que permitan Cortar, Pegar y Limpiar el texto cifrado, también que pueda cifrar y descifrar números, signos, Ñ, ñ, etc.
