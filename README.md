@@ -30,7 +30,7 @@ Debido al uso del producto, el usuario es capaz de guardar y compartir informaci
 
 #### Prototipo de mediana fidelidad:
 
-![Sketch](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/sketch.jpg)
+![Sketch](https://raw.githubusercontent.com/mariaPazBeltran/SCL011-Cipher/master/prototipoMediana.jpg)
 
 #### Historia de usuario:
 
